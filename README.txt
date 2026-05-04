@@ -1,4 +1,4 @@
-🏋️‍♂️ Gym Genie Elite v3.0
+🏋️‍♂️ Gym Genie Elite
 
 Gym Genie Elite is a production-grade AI fitness coaching application powered by the Groq Llama-3 API, designed to deliver personalized training, nutrition insights, and real-time coaching.
 
