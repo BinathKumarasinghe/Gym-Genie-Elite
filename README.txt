@@ -1,57 +1,53 @@
-========================================================================
-                      GYM GENIE ELITE v3.0
-========================================================================
+🏋️‍♂️ Gym Genie Elite v3.0
 
-Welcome to Gym Genie Elite, a production-grade AI Fitness coaching
-application powered by the Groq Llama-3 API.
+Gym Genie Elite is a production-grade AI fitness coaching application powered by the Groq Llama-3 API, designed to deliver personalized training, nutrition insights, and real-time coaching.
 
-------------------------------------------------------------------------
-1. PREREQUISITES
-------------------------------------------------------------------------
-- Python 3.9 or higher installed on your system.
-- A valid Groq API Key (get one at https://console.groq.com).
+🚀 Built for performance. Designed for results.
 
-------------------------------------------------------------------------
-2. INSTALLATION
-------------------------------------------------------------------------
-Open your terminal/command prompt in the project directory and run:
+📌 Prerequisites
+
+Before getting started, ensure you have:
+
+🐍 Python 3.9 or higher
+🔑 A valid Groq API Key
+👉 Get yours here: https://console.groq.com
+⚙️ Installation
+
+Clone the repository and install dependencies:
 
 pip install -r requirements.txt
+🔐 Configuration
+Locate the .env file in the root directory
+Open it in a text editor
+Replace the placeholder with your API key:
+GROQ_API_KEY=your_actual_key_here
+▶️ Running the Application
 
-------------------------------------------------------------------------
-3. CONFIGURATION
-------------------------------------------------------------------------
-1. Locate the .env file in the main directory.
-2. Open it with any text editor.
-3. Replace the placeholder with your actual Groq API Key:
-   GROQ_API_KEY=your_actual_key_here
-
-------------------------------------------------------------------------
-4. HOW TO RUN
-------------------------------------------------------------------------
-In your terminal, run the following command:
+Start the app using Streamlit:
 
 streamlit run app.py
 
-The application will launch automatically in your default web browser.
+🌐 The application will automatically open in your default web browser.
 
-------------------------------------------------------------------------
-5. CORE FEATURES
-------------------------------------------------------------------------
-- DASHBOARD: View your personalized weekly workout and nutrition plan.
-- FITBOT CHAT: Interact with the AI Coach swarm for real-time guidance.
-- MACRO INTEL: Visual dashboards for metabolism and caloric timelines.
-- SAFE ZONE: Specialized protocol for injury recovery and pain management.
+💡 Core Features
+📊 Dashboard
+Personalized weekly workout & nutrition plans
+🤖 FitBot Chat
+AI-powered coaching for real-time fitness guidance
+🔥 Macro Intel
+Visual analytics for metabolism & caloric tracking
+🛡️ Safe Zone
+Injury recovery protocols & pain management support
+📁 Project Structure
+/app.py                # Main application entry point
+/agent/                # AI personalities & API client logic
+/utils/                # UI components & visual logic
+/requirements.txt      # Dependencies
+/.env                  # API key configuration (private)
+🧠 Tech Stack
+Streamlit – Frontend interface
+Groq API (Llama-3) – AI engine
+Python – Core backend logic
+⚡ Designed for Peak Performance
 
-------------------------------------------------------------------------
-6. FILE STRUCTURE
-------------------------------------------------------------------------
-/app.py                - Main Application Entry Point
-/agent/                - AI Personalities and API Client
-/utils/                - Design System and Visual Logic
-/requirements.txt      - List of Dependencies
-/.env                  - Private API Key Configuration
-
-========================================================================
-Designed for Peak Performance.
-========================================================================
+Train smarter, recover better, and stay consistent with Gym Genie Elite.
